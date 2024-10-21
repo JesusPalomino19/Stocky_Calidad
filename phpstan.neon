@@ -1,0 +1,18 @@
+parameters:
+    level: max
+    paths:
+        - app       # Cambia 'src' a 'app', ya que parece ser donde está tu código principal
+        - public    # También incluir 'public' si tienes archivos PHP ahí
+
+    inferPrivatePropertyTypeFromConstructor: true  # Analiza la inferencia de tipos en constructores
+    checkMissingIterableValueType: true            # Verifica los tipos en estructuras iterables
+    checkUninitializedProperties: true             # Detecta propiedades sin inicializar
+    reportUnmatchedIgnoredErrors: true             # Informa sobre errores ignorados no utilizados
+    checkExplicitMixed: true                       # Forzar chequeo de 'mixed' en el código
+    checkUnionTypes: true                          # Revisa tipos en uniones
+    checkMissingVarTagTypehint: true               # Detecta falta de anotaciones de tipo en variables
+
+# Añadir extensiones para reglas adicionales (opcional)
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-deprecation-rules/rules.neon

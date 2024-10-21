@@ -1,0 +1,6 @@
+projectKey=Sonar-POS
+serverUrl=http://localhost:8080
+serverVersion=9.9.7.96285
+dashboardUrl=http://localhost:8080/dashboard?id=Sonar-POS
+ceTaskId=AZKSek35LWHbIKxogmfV
+ceTaskUrl=http://localhost:8080/api/ce/task?id=AZKSek35LWHbIKxogmfV
