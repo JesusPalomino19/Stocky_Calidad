@@ -46,7 +46,7 @@
         "vue-flag-icon": "^1.0.6",
         "vue-good-table": "^2.21.11",
         "vue-html-to-paper": "^1.4.4",
-        "vue-i18n": "^8.26.5",
+        "vue-i18n": "^9.14.5",
         "vue-lazyload": "^1.3.3",
         "vue-loader": "^15.9.8",
         "vue-localstorage": "^0.6.2",
